@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 public class EntrataTest {
     private WebDriver driver;
-
+  
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\eclipse-workspace\\demo\\src\\test\\resources\\chromedriver.exe");
